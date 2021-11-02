@@ -80,3 +80,16 @@ ul {
     color: var(--title-text-color);
     background-color:#F5F4FA;
 }
+.button-porfolio:hover, 
+.button-porfolio:focus{
+    color:var(--primery-white-color);
+    background-color:var(--accent-color)
+}
+
+/* Project */
+.project{
+    color: var(--title-text-color);
+}
+.group{
+    color: var(--primery-text-color);
+}
