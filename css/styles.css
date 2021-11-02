@@ -5,7 +5,10 @@
 /* фон основной #FFFFFF */
 /* фон вставки и подвала #2F303A*/
 /* фон Наша команда #F5F4FA */
+/* фон кнопки Заказать услугу #2196F3*/
+/* фон кнопок портфолио #F5F4FA*/
 
+/* Стили общие */
 :root {
   --primery-text-color:#757575;
   --title-text-color:#212121;
@@ -25,12 +28,17 @@ ul {
     list-style:none;
 }
 
+/* Стили для index.html */
+
 /* Site-nav */
-.site-nav, .link{
+.site-nav .link{
     color: var(--title-text-color);
-} 
-.site-nav,.link:hover,
-.site-nav,.link:focus{
+}
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
     color:var(--accent-color);  
 }
 
@@ -38,7 +46,7 @@ ul {
 .contakt {
     color:var(--primery-text-color);
 }
-.contakt:hover,
+.contakt:hover, 
 .contakt:focus{
     color:var(--accent-color);
 }
@@ -63,4 +71,12 @@ ul {
 .button{
     color: var(--primery-white-color);
     background-color:var(--accent-color);
+}
+
+/* Стили для portfolio.html */
+
+/* Button porfolio */
+.button-porfolio{
+    color: var(--title-text-color);
+    background-color:#F5F4FA;
 }
