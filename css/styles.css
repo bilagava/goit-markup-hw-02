@@ -8,12 +8,12 @@
 /* фон кнопки Заказать услугу #2196F3*/
 /* фон кнопок портфолио #F5F4FA*/
 
-/* Стили общие */
+
 :root {
-  --primery-text-color:#757575;
-  --title-text-color:#212121;
-  --accent-color:#2196F3;
-  --primery-white-color:#FFFFFF;
+    --primery-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-color:#2196F3;
+    --primery-white-color:#FFFFFF;
 }
 
 body {
@@ -21,12 +21,37 @@ body {
     color:var(--primery-text-color);
 }
 
-.logo {
-    color: var(--title-text-color);
-}
 ul {
     list-style:none;
 }
+
+/* Logo */
+.logo {
+    color:var(--accent-color);
+}
+.studio{
+    color: var(--title-text-color);
+}
+.studio-futer{
+    color: var(--title-text-color);
+}
+
+/* Contakt */
+.contakt {
+    color:var(--primery-text-color);
+}
+.contakt:hover, 
+.contakt:focus{
+    color:var(--accent-color);
+}
+.adres{
+    color: var(--title-text-color);
+}
+.adres:hover,
+.adres:focus{
+    color: var(--accent-color);
+}
+
 
 /* Стили для index.html */
 
@@ -42,27 +67,21 @@ ul {
     color:var(--accent-color);  
 }
 
-/* Contakt */
-.contakt {
-    color:var(--primery-text-color);
-}
-.contakt:hover, 
-.contakt:focus{
-    color:var(--accent-color);
-}
-
 /* Hero */
 .hero-title{
     color: silver;
 }
+
 /* Section */
 .section-title{
     color: var(--title-text-color);
 }
+
 /* Features */
 .title{
     color: var(--title-text-color) ;
 }
+
 /* Our team */
 .name {
     color: var(--title-text-color) ;
@@ -72,6 +91,7 @@ ul {
     color: var(--primery-white-color);
     background-color:var(--accent-color);
 }
+
 
 /* Стили для portfolio.html */
 
@@ -90,6 +110,8 @@ ul {
 .project{
     color: var(--title-text-color);
 }
-.group{
+
+/* Group */
+.group {
     color: var(--primery-text-color);
 }
