@@ -103,6 +103,7 @@ color: var(--accent-color);
     color:var(--main-title-color);
 }
 .hero-section-btn{
+    cursor: pointer;
     background-color:var(--accent-color) ;
     font-family: inherit;
     font-weight: 700;
